@@ -7,7 +7,17 @@ A lab where I tinker with the Rust language.
 
 2. [Article | The current state of Rust web frameworks](https://blog.logrocket.com/current-state-rust-web-frameworks/)
 
+3. [Docs | Yew Tutorial](https://yew.rs/docs/tutorial)
+
 ## Log
+
+February 20, 2023
+
+1. Add `yew` as a dependency.
+
+2. Had to manually create `index.html` in the project directory before running `trunk serve` because otherwise there would be this error: `Error: error getting canonical path to source HTML file "index.html"`.
+
+3. Found [this tutorial [3]](https://yew.rs/docs/tutorial) which helped fix a bunch of bugs.
 
 February 19, 2023
 
