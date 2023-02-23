@@ -9,6 +9,8 @@ A lab where I tinker with the Rust language.
 
 3. [Docs | Yew Tutorial](https://yew.rs/docs/tutorial)
 
+4. [Book | The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html)
+
 ## Log
 
 February 20, 2023
