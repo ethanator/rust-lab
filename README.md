@@ -11,22 +11,32 @@ A lab where I tinker with the Rust language.
 
 4. [Book | The Rust Programming Language](https://doc.rust-lang.org/book/ch00-00-introduction.html)
 
+5. [YouTube | Rust and Wasm in Production](https://www.youtube.com/playlist?list=PLWtPciJ1UMuARHHLqRVzBiPZSwlqXthgN)
+
 ## Log
 
-February 20, 2023
+- March 25, 2023
 
-1. Add `yew` as a dependency.
+    - Watched [this YouTube video](https://www.youtube.com/watch?v=7ap3CkBEpOE) which claims Leptos is faster than React on both Firefox and Chrome.
 
-2. Had to manually create `index.html` in the project directory before running `trunk serve` because otherwise there would be this error: `Error: error getting canonical path to source HTML file "index.html"`.
+    - Watched [the YouTube video on deploying Leptos](https://www.youtube.com/watch?v=6rICMHd7as0) which brings up Yew and [Perseus](https://github.com/framesurge/perseus).
 
-3. Found [this tutorial [3]](https://yew.rs/docs/tutorial) which helped fix a bunch of bugs.
+    - Watched [this YouTube video about coding a to-do list with Leptos](https://www.youtube.com/watch?v=v9rUoYX9lUU) and understood what "nightly" means in Rust with [this guide](https://rust-lang.github.io/rustup/concepts/channels.html).
 
-February 19, 2023
+- February 20, 2023
 
-1. [Install Rust and Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html). You need to add `$HOME/.cargo/bin` to your `$PATH` variable in `~/.zshrc` if you're using ZSH.
+    - Added `yew` as a dependency.
 
-2. `cargo install trunk`
+    - Had to manually create `index.html` in the project directory before running `trunk serve` because otherwise there would be this error: `Error: error getting canonical path to source HTML file "index.html"`.
 
-3. `rustup target add wasm32-unknown-unknown`
+    - Found [this tutorial [3]](https://yew.rs/docs/tutorial) which helped fix a bunch of bugs.
 
-4. `cargo new yew-video-streaming`
+- February 19, 2023
+
+    - Installed Rust and Cargo following [this guide](https://doc.rust-lang.org/cargo/getting-started/installation.html). You need to add `$HOME/.cargo/bin` to your `$PATH` variable in `~/.zshrc` if you're using ZSH.
+
+    - `cargo install trunk`
+
+    - `rustup target add wasm32-unknown-unknown`
+
+    - `cargo new yew-video-streaming`
