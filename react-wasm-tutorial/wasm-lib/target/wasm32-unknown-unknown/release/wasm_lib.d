@@ -1,1 +1,0 @@
-/Users/ethan.chen/Desktop/Labs/rust-lab/react-wasm-tutorial/wasm-lib/target/wasm32-unknown-unknown/release/wasm_lib.wasm: /Users/ethan.chen/Desktop/Labs/rust-lab/react-wasm-tutorial/wasm-lib/src/lib.rs
