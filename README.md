@@ -15,6 +15,12 @@ A lab where I tinker with the Rust language.
 
 ## Log
 
+- September 17, 2023
+
+    - Completed [this tutorial](https://tinyurl.com/nextjs-rust-wasm) which actually worked
+
+    - Completed [this tutorial](https://tinyurl.com/react-rust-wasm) which did NOT work unfortunately
+
 - March 25, 2023
 
     - Watched [this YouTube video](https://www.youtube.com/watch?v=7ap3CkBEpOE) which claims Leptos is faster than React on both Firefox and Chrome.
